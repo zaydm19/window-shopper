@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		E49C33B51F82AFA90090D9E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33B41F82AFA90090D9E1 /* AppDelegate.swift */; };
-		E49C33B71F82AFA90090D9E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33B61F82AFA90090D9E1 /* ViewController.swift */; };
+		E49C33B71F82AFA90090D9E1 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33B61F82AFA90090D9E1 /* MainVC.swift */; };
 		E49C33BA1F82AFAA0090D9E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49C33B81F82AFA90090D9E1 /* Main.storyboard */; };
 		E49C33BC1F82AFAA0090D9E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E49C33BB1F82AFAA0090D9E1 /* Assets.xcassets */; };
 		E49C33BF1F82AFAA0090D9E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E49C33BD1F82AFAA0090D9E1 /* LaunchScreen.storyboard */; };
 		E49C33CA1F82AFAA0090D9E1 /* window_shopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33C91F82AFAA0090D9E1 /* window_shopperTests.swift */; };
 		E49C33D51F82AFAA0090D9E1 /* window_shopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33D41F82AFAA0090D9E1 /* window_shopperUITests.swift */; };
+		E49C33E51F82B2390090D9E1 /* CurrencyTxtField.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33E41F82B2390090D9E1 /* CurrencyTxtField.swift */; };
+		E49C33E81F83A7220090D9E1 /* wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33E71F83A7220090D9E1 /* wage.swift */; };
+		E49C33E91F83A9070090D9E1 /* wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49C33E71F83A7220090D9E1 /* wage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +39,7 @@
 /* Begin PBXFileReference section */
 		E49C33B11F82AFA90090D9E1 /* window-shopper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "window-shopper.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49C33B41F82AFA90090D9E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E49C33B61F82AFA90090D9E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E49C33B61F82AFA90090D9E1 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		E49C33B91F82AFA90090D9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E49C33BB1F82AFAA0090D9E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E49C33BE1F82AFAA0090D9E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +50,8 @@
 		E49C33D01F82AFAA0090D9E1 /* window-shopperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "window-shopperUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E49C33D41F82AFAA0090D9E1 /* window_shopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = window_shopperUITests.swift; sourceTree = "<group>"; };
 		E49C33D61F82AFAA0090D9E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E49C33E41F82B2390090D9E1 /* CurrencyTxtField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyTxtField.swift; sourceTree = "<group>"; };
+		E49C33E71F83A7220090D9E1 /* wage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +102,10 @@
 		E49C33B31F82AFA90090D9E1 /* window-shopper */ = {
 			isa = PBXGroup;
 			children = (
+				E49C33E61F83A7130090D9E1 /* Model */,
+				E49C33E31F82B20B0090D9E1 /* Views */,
+				E49C33E21F82B0F30090D9E1 /* Controller */,
 				E49C33B41F82AFA90090D9E1 /* AppDelegate.swift */,
-				E49C33B61F82AFA90090D9E1 /* ViewController.swift */,
 				E49C33B81F82AFA90090D9E1 /* Main.storyboard */,
 				E49C33BB1F82AFAA0090D9E1 /* Assets.xcassets */,
 				E49C33BD1F82AFAA0090D9E1 /* LaunchScreen.storyboard */,
@@ -123,6 +130,30 @@
 				E49C33D61F82AFAA0090D9E1 /* Info.plist */,
 			);
 			path = "window-shopperUITests";
+			sourceTree = "<group>";
+		};
+		E49C33E21F82B0F30090D9E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E49C33B61F82AFA90090D9E1 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E49C33E31F82B20B0090D9E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E49C33E41F82B2390090D9E1 /* CurrencyTxtField.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E49C33E61F83A7130090D9E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E49C33E71F83A7220090D9E1 /* wage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E49C33B71F82AFA90090D9E1 /* ViewController.swift in Sources */,
+				E49C33E51F82B2390090D9E1 /* CurrencyTxtField.swift in Sources */,
+				E49C33E81F83A7220090D9E1 /* wage.swift in Sources */,
+				E49C33B71F82AFA90090D9E1 /* MainVC.swift in Sources */,
 				E49C33B51F82AFA90090D9E1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -269,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E49C33CA1F82AFAA0090D9E1 /* window_shopperTests.swift in Sources */,
+				E49C33E91F83A9070090D9E1 /* wage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
